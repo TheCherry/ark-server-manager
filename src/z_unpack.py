@@ -5,7 +5,7 @@ import sys
 
 def str_to_l(st):
     return struct.unpack('q', st)[0]
-
+    
 
 def z_unpack(src, dst):
     with open(src, 'rb') as f_src:
