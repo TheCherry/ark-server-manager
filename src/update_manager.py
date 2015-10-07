@@ -20,6 +20,12 @@ def backup_saves(dir, name):
 
 
 def try_update_mods():
+    # get list
+    for mod in mods
+        update_routine("appupdate")
+        
+        utils.z_unpack(main.p_mod_download + "content/mods/%s/Linux/*.z", )
+        utils.create_modfile(main.p_mod_downloads + "content/mods/%s/")
     return ""
 
 

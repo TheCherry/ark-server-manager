@@ -4,7 +4,7 @@ import sys
 
 
 def str_to_l(st):
-    return struct.unpack('L', st)[0]
+    return struct.unpack('q', st)[0]
 
 
 def z_unpack(src, dst):
