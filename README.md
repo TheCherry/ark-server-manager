@@ -9,3 +9,6 @@ It's only the .z file decompress method, for ARK mods, finish yet.
 2. Finish the Serverupdate routine
 3. Backupsystem with versionscontroll
 4. Webinterface with authenfication
+
+
+www.arktastisch.de
