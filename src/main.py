@@ -7,6 +7,7 @@ p_ark = p_main + "/ark"
 p_run = p_ark + "/run"
 p_update = p_ark + "/update"
 
+
 def main():
     if sys.argv[1] == "init":
         os.makedirs(p_main)
@@ -15,7 +16,9 @@ def main():
         os.makedirs(p_update)
         server_manager.install_steamcmd()
     if sys.argv[1] == "start":
+        print("Versuche Update Server ...")
         updated = update_manager.try_update(p_run)
+        print("Versuche Update Mods ...")
         updated_mods = update_manager.try_update_mods(p_run, config.mods)
         if(updated and updated_mods):
             update_manager.backup(p_run)
